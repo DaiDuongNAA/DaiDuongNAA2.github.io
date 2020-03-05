@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CLICK!!!</title>
+    </head>
+    <style>
+    
+    </style>
+    <body>
+    <a href="https://www.apple.com"><p>Click!</p></a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+  $("p").on({
+  mouseenter: function(){
+    $(this).css("background-color", "lightgray");
+  }, 
+  mouseleave: function(){
+    $(this).css("background-color", "lightblue");
+  }, 
+  click: function(){
+    $(this).css("background-color", "yellow");
+  } 
+});
+
+</script>
+
+    </body>
+</html>
